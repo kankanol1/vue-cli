@@ -16,6 +16,14 @@ npm install -g @vue/cli
 # OR
 yarn global add @vue/cli
 ```
+如果报错
+```bash
+Unexpected end of JSON input while parsing near '...,"dist":{"shasum":"56'
+```
+请用下面的命令清除缓存，重新安装
+```bash
+npm cache clean --force
+```
 
 安装之后，你就可以在命令行中访问 `vue` 命令。你可以通过简单运行 `vue`，看看是否展示出了一份所有可用命令的帮助信息，来验证它是否安装成功。
 
